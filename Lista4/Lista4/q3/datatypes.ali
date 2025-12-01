@@ -1,0 +1,20 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV SPARK_05
+
+U datatypes%s		datatypes.ads		b2860bb0 NE OO PK
+
+D datatypes.ads		20251114033143 b2860bb0 datatypes%s
+D system.ads		20230707070819 4635ec04 system%s
+G a e
+X 1 datatypes.ads
+2K9*DataTypes 8l5 8e14
+4I9*TemperatureValue<integer>
+5I9*PressureValue<integer>
+6E9*HeatingPosition 6e37
+6n29*On{6E9}
+6n33*Off{6E9}
+7I9*ValvePosition<integer>
+

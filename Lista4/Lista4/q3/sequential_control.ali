@@ -1,0 +1,97 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV SPARK_05
+
+U sequential_control%b	sequential_control.adb	dc1b1833 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W controlalgorithms%s	controlalgorithms.adb	controlalgorithms.ali
+W datatypes%s		datatypes.ads		datatypes.ali
+W io%s			io.adb			io.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-calend.ads		20230707070819 474d9720 ada.calendar%s
+D a-caldel.ads		20230707070819 9f20b83d ada.calendar.delays%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D controlalgorithms.ads	20251114033237 ccad21b6 controlalgorithms%s
+D datatypes.ads		20251114033143 b2860bb0 datatypes%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D io.ads		20251114033157 90dc2494 io%s
+D sequential_control.adb  20251114141637 9c18c3cc sequential_control%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [sequential_control standard 6 11 none]
+G r c none [sequential_control standard 6 11 none] [read_temp io 6 14 none]
+G r c none [sequential_control standard 6 11 none] [calculate_heating_setpoint controlalgorithms 6 14 none]
+G r c none [sequential_control standard 6 11 none] [set_heating io 8 14 none]
+G r c none [sequential_control standard 6 11 none] [read_pressure io 7 14 none]
+G r c none [sequential_control standard 6 11 none] [calculate_valve_setpoint controlalgorithms 8 14 none]
+G r c none [sequential_control standard 6 11 none] [set_valve io 9 14 none]
+G r c none [sequential_control standard 6 11 none] [show_temp io 10 14 none]
+G r c none [sequential_control standard 6 11 none] [show_pressure io 11 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 18r4 19r4 20r4 21r4 27r7 28r7 29r7 30r7 33r7 45r7 48r7
+. 60r7 63r7 71r7 77r4 78r4 79r4
+X 8 a-textio.ads
+57K13*Text_IO 727e16 15|1w10 18r8 19r8 20r8 21r8 27r11 28r11 29r11 30r11
+. 33r11 45r11 48r11 60r11 63r11 71r11 77r8 78r8 79r8
+264U14*New_Line 15|21s16 45s19 60s19 71s19
+465U14*Put 15|28s19
+508U14*Put_Line 15|18s16 19s16 20s16 27s19 29s19 30s19 33s19 48s19 63s19
+. 77s16 78s16 79s16
+X 10 controlalgorithms.ads
+4K9*ControlAlgorithms 10e22 15|4w6 39r7 54r7
+6U14*Calculate_Heating_Setpoint 15|39s25
+8U14*Calculate_Valve_Setpoint 15|54s25
+X 11 datatypes.ads
+2K9*DataTypes 8e14 15|2w6 2r21
+4I9*TemperatureValue<integer> 15|9r26
+5I9*PressureValue<integer> 15|10r26
+6E9*HeatingPosition 6e37 15|11r26
+7I9*ValvePosition<integer> 15|12r26
+X 14 io.ads
+4K9*IO 12e7 15|3w6 36r7 43r7 51r7 58r7 66r7 69r7
+6U14*Read_Temp 15|36s10
+7U14*Read_Pressure 15|51s10
+8U14*Set_Heating 15|43s10
+9U14*Set_Valve 15|58s10
+10U14*Show_Temp 15|66s10
+11U14*Show_Pressure 15|69s10
+X 15 sequential_control.adb
+6U11*Sequential_Control 6b11 81l5 81t23
+9i4 Current_Temperature{11|4I9} 36m20 39r52 66r20
+10i4 Current_Pressure{11|5I9} 51m24 54r50 69r24
+11e4 Heating_Control{11|6E9} 40m53 43r22
+12i4 Valve_Control{11|7I9} 55m51 58r20
+14i4 Cycle_Count{natural} 25m7 29r42
+15i4 Max_Cycles{natural} 24r18
+24i8 I{integer} 25r22
+

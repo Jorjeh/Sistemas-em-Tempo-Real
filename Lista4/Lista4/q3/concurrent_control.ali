@@ -1,0 +1,177 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U concurrent_control%b	concurrent_control.adb	88eca149 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W controlalgorithms%s	controlalgorithms.adb	controlalgorithms.ali
+W datatypes%s		datatypes.ads		datatypes.ali
+W io%s			io.adb			io.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-calend.ads		20230707070819 474d9720 ada.calendar%s
+D a-caldel.ads		20230707070819 9f20b83d ada.calendar.delays%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20230707070818 0240fc73 ada.real_time%s
+D a-retide.ads		20230707070818 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D concurrent_control.adb  20251114034256 caaf86c5 concurrent_control%b
+D controlalgorithms.ads	20251114033237 ccad21b6 controlalgorithms%s
+D datatypes.ads		20251114033143 b2860bb0 datatypes%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D io.ads		20251114033157 90dc2494 io%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atacco.ads		20230707070819 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-linux.ads		20230707070818 ed0b8aee system.linux%s
+D s-multip.ads		20230707070819 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20250422025654 56602da1 system.os_constants%s
+D s-osinte.ads		20250422025654 baabc537 system.os_interface%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stausa.ads		20230707070819 017a0a05 system.stack_usage%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20230707070818 2b3f8252 system.task_info%s
+D s-taspri.ads		20230707070818 f40ac08d system.task_primitives%s
+D s-taprop.ads		20230707070818 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20230707070818 b9d612e2 system.tasking%s
+D s-taprob.ads		20230707070818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230707070819 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20230707070818 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20230707070818 cca55c94 system.tasking.stages%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [concurrent_control standard 10 11 none]
+G r c none [concurrent_control standard 10 11 none] [read_temp io 6 14 none]
+G r c none [concurrent_control standard 10 11 none] [calculate_heating_setpoint controlalgorithms 6 14 none]
+G r c none [concurrent_control standard 10 11 none] [set_heating io 8 14 none]
+G r c none [concurrent_control standard 10 11 none] [read_pressure io 7 14 none]
+G r c none [concurrent_control standard 10 11 none] [calculate_valve_setpoint controlalgorithms 8 14 none]
+G r c none [concurrent_control standard 10 11 none] [set_valve io 9 14 none]
+G r c none [concurrent_control standard 10 11 none] [show_temp io 10 14 none]
+G r c none [concurrent_control standard 10 11 none] [show_pressure io 11 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|4r6 5r6 5r25 65r10 75r16 98r7 102r10 121r10 131r16 154r7
+. 158r10 177r10 187r16 197r13 200r13 207r7 211r10 215r4 216r4 223r4 224r4
+. 225r4 230r4 231r4 239r4 240r4
+X 7 a-reatim.ads
+39K13*Real_Time 185e18 13|5w10 5r29
+49O9*Time<duration> 13|59r25 115r25 171r25
+54O9*Time_Span<duration> 13|58r34 114r34 170r34
+61V13*Clock{49O9} 13|68s20 124s20 180s20
+65V14*"+"{49O9} 13|68s26 94s36 124s26 150s36 180s26 203s36
+119V13*Milliseconds{54O9} 13|58s47 114s47 170s47
+X 11 a-textio.ads
+57K13*Text_IO 727e16 13|4w10 65r14 75r20 98r11 102r14 121r14 131r20 154r11
+. 158r14 177r14 187r20 197r17 200r17 207r11 211r14 215r8 216r8 223r8 224r8
+. 225r8 230r8 231r8 239r8 240r8
+264U14*New_Line 13|216s16 225s16 230s16 239s16
+508U14*Put_Line 13|65s22 75s28 98s19 102s22 121s22 131s28 154s19 158s22 177s22
+. 187s28 197s25 200s25 207s19 211s22 215s16 223s16 224s16 231s16 240s16
+X 13 concurrent_control.adb
+10U11*Concurrent_Control 10b11 242l5 242t23
+13w14 Shared_Data 27b19 47l8 47t19 84r13 140r13 193r27 194r28
+15U17 Set_Temperature 15>33 28b17 31l11 31t26 84s25
+15i33 TV{15|4I9} 28b33 30r25
+16U17 Set_Pressure 16>30 33b17 36l11 36t23 140s25
+16i30 PV{15|5I9} 33b30 35r22
+19V16 Get_Temperature{15|4I9} 38b16 41l11 41t26 193s39
+20V16 Get_Pressure{15|5I9} 43b16 46l11 46t23 194s40
+23i7 Temperature{15|4I9} 30r10 40r17
+24i7 Pressure{15|5I9} 35r10 45r17
+50t9 Temperature_Control 55b14 103l8 103t27 219r4 233r4
+51Y13 Start 63b14 66l11 66t16 219s24
+52Y13 Stop 73b20 76l17 76t21 233s24
+56i7 Current_Temp{15|4I9} 81m26 84r41 87r58
+57e7 Heating_Ctrl{15|6E9} 88m59 91r28
+58o7 Period{7|54O9} 68r28 94r38
+59o7 Next_Time{7|49O9} 68m7 78r25 94m13 94r26
+60b7 Active{boolean} 64m10 71r13 74m16
+106t9 Pressure_Control 111b14 159l8 159t24 220r4 234r4
+107Y13 Start 119b14 122l11 122t16 220s21
+108Y13 Stop 129b20 132l17 132t21 234s21
+112i7 Current_Press{15|5I9} 137m30 140r38 143r56
+113i7 Valve_Ctrl{15|7I9} 144m57 147r26
+114o7 Period{7|54O9} 124r28 150r38
+115o7 Next_Time{7|49O9} 124m7 134r25 150m13 150r26
+116b7 Active{boolean} 120m10 127r13 130m16
+162t9 Display_Task 167b14 212l8 212t20 221r4 235r4
+163Y13 Start 175b14 178l11 178t16 221s17
+164Y13 Stop 185b20 188l17 188t21 235s17
+168i7 Temp_Value{15|4I9} 193m13 198r26
+169i7 Press_Value{15|5I9} 194m13 199r30
+170o7 Period{7|54O9} 180r28 203r38
+171o7 Next_Time{7|49O9} 180m7 190r25 203m13 203r26
+172b7 Active{boolean} 176m10 183r13 186m16
+X 14 controlalgorithms.ads
+4K9*ControlAlgorithms 13|8w6 87r13 143r13 14|10e22
+6U14*Calculate_Heating_Setpoint 13|87s31
+8U14*Calculate_Valve_Setpoint 13|143s31
+X 15 datatypes.ads
+2K9*DataTypes 13|6w6 6r21 15|8e14
+4I9*TemperatureValue<integer> 13|15r41 19r39 23r21 28r41 38r39 56r25 168r25
+5I9*PressureValue<integer> 13|16r38 20r36 24r21 33r38 43r36 112r25 169r25
+6E9*HeatingPosition 13|57r25 15|6e37
+7I9*ValvePosition<integer> 13|113r25
+X 19 io.ads
+4K9*IO 13|7w6 81r13 91r13 137r13 147r13 198r13 199r13 19|12e7
+6U14*Read_Temp 13|81s16
+7U14*Read_Pressure 13|137s16
+8U14*Set_Heating 13|91s16
+9U14*Set_Valve 13|147s16
+10U14*Show_Temp 13|198s16
+11U14*Show_Pressure 13|199s16
+X 34 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

@@ -1,0 +1,142 @@
+V "GNAT Lib v10"
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U io%b			io.adb			283bb5d0 OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U io%s			io.ads			225a2f24 EE NE OO PK IU
+W datatypes%s		datatypes.ads		datatypes.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-inteio.ads		20230707070819 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20230707070819 bb51c45a ada.numerics%s
+D a-nudira.ads		20230707070819 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20230707070819 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-tiinio.ads		20230707070819 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D datatypes.ads		20251114033143 b2860bb0 datatypes%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D io.ads		20251114033157 90dc2494 io%s
+D io.adb		20251114033212 91bd9062 io%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imenne.ads		20230707070819 614c06c0 system.img_enum_new%s
+D s-imguns.ads		20230707070819 9ff43cf7 system.img_uns%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-rannum.ads		20230707070819 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20230707070819 20ba1217 system.random_numbers%b
+D s-ransee.ads		20230707070819 01a57b33 system.random_seed%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-valuns.ads		20230707070819 35067db9 system.val_uns%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [read_temp io 6 14 none]
+G c Z s b [read_pressure io 7 14 none]
+G c Z s b [set_heating io 8 14 none]
+G c Z s b [set_valve io 9 14 none]
+G c Z s b [show_temp io 10 14 none]
+G c Z s b [show_pressure io 11 14 none]
+G c Z b b [random io__random_temp 52 13 10_4]
+G c Z b b [reset io__random_temp 54 14 10_4]
+G c Z b b [reset io__random_temp 55 14 10_4]
+G c Z b b [save io__random_temp 61 14 10_4]
+G c Z b b [reset io__random_temp 62 14 10_4]
+G c Z b b [image io__random_temp 66 13 10_4]
+G c Z b b [value io__random_temp 67 13 10_4]
+G c Z b b [random io__random_press 52 13 14_4]
+G c Z b b [reset io__random_press 54 14 14_4]
+G c Z b b [reset io__random_press 55 14 14_4]
+G c Z b b [save io__random_press 61 14 14_4]
+G c Z b b [reset io__random_press 62 14 14_4]
+G c Z b b [image io__random_press 66 13 14_4]
+G c Z b b [value io__random_press 67 13 14_4]
+X 1 ada.ads
+16K9*Ada 20e8 17|2r6 3r6 4r6 10r31 14r32 32r7 33r7 39r7 40r7 41r7 47r7 48r7
+. 49r7 55r7 56r7 57r7
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 17|3w10 40r11 48r11 56r11
+X 5 a-numeri.ads
+16K13*Numerics 32e17 17|4r10 10r35 14r36
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 17|4w19 10r44 14r45
+50R9*Generator<25|63R9> 17|11r27[10] 15r29[14]
+52V13*Random{integer} 17|20s42[10] 26s40[14]
+55U14*Reset<25|100p14> 17|62s16[10] 63s17[14]
+X 7 a-nudira.adb
+53V16 Random[25|83]{integer} 26|392b13[17|14]
+X 10 a-textio.ads
+57K13*Text_IO 727e16 17|2w10 32r11 33r11 39r11 41r11 47r11 49r11 55r11 57r11
+86I12*Field{integer}
+264U14*New_Line 17|41s19
+465U14*Put 17|32s19 39s19 47s19 55s19
+508U14*Put_Line 17|33s19 49s19 57s19
+X 11 a-tiinio.ads
+80U14*Put 17|40s27[3|18] 48s27[3|18] 56s27[3|18]
+82i7 Width{10|86I12} 17|40r44[3|18] 48r44[3|18] 56r44[3|18]
+X 13 datatypes.ads
+2K9*DataTypes 8e14 16|2w6 2r21
+4I9*TemperatureValue<integer> 16|6r33 10r32 17|18r33 20r13 45r32
+5I9*PressureValue<integer> 16|7r37 11r36 17|24r37 26r13 53r36
+6E9*HeatingPosition 6e37 16|8r34 17|30r34 33r28
+7I9*ValvePosition<integer> 16|9r32 17|37r32
+X 14 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 16 io.ads
+4K9*IO 12l5 12e7 17|6b14 64l5 64t7
+6U14*Read_Temp 6<24 17|18b14 21l8 21t17
+6i24 TV{13|4I9} 17|18b24 20m7
+7U14*Read_Pressure 7<28 17|24b14 27l8 27t21
+7i28 PV{13|5I9} 17|24b28 26m7
+8U14*Set_Heating 8>26 17|30b14 34l8 34t19
+8e26 HP{13|6E9} 17|30b26 33r50
+9U14*Set_Valve 9>24 17|37b14 42l8 42t17
+9i24 VP{13|7I9} 17|37b24 40r39
+10U14*Show_Temp 10>24 17|45b14 50l8 50t17
+10i24 TV{13|4I9} 17|45b24 48r39
+11U14*Show_Pressure 11>28 17|53b14 58l8 58t21
+11i28 PV{13|5I9} 17|53b28 56r39
+X 17 io.adb
+9I12 Temp_Range{integer} 10r60
+10K12 Random_Temp[6|44] 11r15 20r30 62r4
+11r4 Temp_Gen{6|50R9[10]} 20r49 62r22
+13I12 Press_Range{integer} 14r61
+14K12 Random_Press[6|44] 15r16 26r27 63r4
+15r4 Press_Gen{6|50R9[14]} 26r47 63r23
+X 25 s-rannum.ads
+75V13*Random{14|74M9} 26|221i21
+76V13*Random{14|77M9} 26|221i21
+
